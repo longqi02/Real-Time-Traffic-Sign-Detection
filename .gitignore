@@ -1,0 +1,30 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# SECURITY: Never commit API keys or sensitive configuration
+gradle.properties
+keystore.properties
+google-services.json
+*.keystore
+*.jks
+
+# Security-related files that may contain secrets
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+secrets.properties

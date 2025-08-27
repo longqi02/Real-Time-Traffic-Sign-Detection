@@ -1,0 +1,12 @@
+# Template for gradle.properties - Copy this to gradle.properties and add your actual keys
+# This file should be added to .gitignore to prevent accidental commits
+
+# Google API Keys - Replace with your actual keys
+GOOGLE_MAPS_API_KEY=YOUR_GOOGLE_MAPS_API_KEY_HERE
+PLACES_API_KEY=YOUR_GOOGLE_MAPS_API_KEY_HERE
+
+# Gradle settings (existing)
+org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
+android.useAndroidX=true
+kotlin.code.style=official
+android.nonTransitiveRClass=true
